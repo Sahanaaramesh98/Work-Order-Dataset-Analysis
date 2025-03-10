@@ -32,4 +32,11 @@ The primary goal of this project is to improve work order management in a servic
 - **Start to Completed Time Difference:** Calculated the time difference between the start time and completion time for each work order.
 - **Time-Based Features:** Extracted features such as year, month, date, and time from datetime values to enhance analysis.
 
+### LLM Integration (Google Gemini + Streamlit):
+This project incorporates Google Gemini, a Large Language Model (LLM), to provide intelligent insights on work order management. The chatbot, built using Streamlit, allows users to query the dataset dynamically. Gemini processes the input and returns meaningful insights, enabling efficient decision-making.
+**Implementation Overview**:
+- Streamlit UI: The chatbot is integrated into a Streamlit web app with an input field for user queries.
+- Google Gemini API: The queries are processed using the Gemini AI model to generate meaningful responses.
+- Dataset Integration: The chatbot dynamically interacts with the cleaned and processed dataset to answer user questions.
+
 This project leverages these techniques to provide a deeper understanding of work order patterns and optimize management strategies for improved operational performance.
